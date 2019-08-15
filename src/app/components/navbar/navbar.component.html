@@ -1,0 +1,34 @@
+<div style="background-color: red;height: 20px; "></div>
+<mat-toolbar color = "primary" >
+  <a class="s" mat-button href="#">BOOKSTORE</a>
+  <span class="middingspace"></span>
+  <form class="example-form">
+      <mat-form-field>
+        <input matInput name="searcyByTitle" placeholder="" value="" [(ngModel)]="keyboard">
+      </mat-form-field>
+      <span class="buttonspace"></span>
+      <button mat-icon-button class="buttoncolor">
+          <i class="material-icons">
+              search
+              </i>
+        </button>
+    </form> 
+    <span class="rightbutton"> </span>
+    
+    <a class="s" mat-button  routerLink ="/MyAccount">MyAcount</a>
+    <div *ngIf="loggedIn">
+    <span class="rightbutton"> </span>
+    <a class="s" mat-button href="#">ShoppingCart</a>
+  </div>
+    <span class="rightbutton"> </span>
+    <div *ngIf="loggedIn">
+    <a class="s" mat-button (click)="callLogout()">Log Out</a>
+  </div>
+</mat-toolbar>
+<!--
+  routerLink ="/MyAcount"
+  routerLink ="/ShoppingCart"
+  routerLink ="/logout"
+-->
+  
+<p>navbar works!</p>

@@ -1,0 +1,32 @@
+.mat-toolbar.mat-primary {
+    background : #161631;
+    width: 100%;
+position: absolute;
+  }
+
+  .s{
+      text-decoration-line: none;
+      color: rgb(167, 167, 238);
+  }
+  .rigntmove{
+      margin-right: 40%;
+      position: relative;
+  }
+  .buttonspace{
+    margin-top: 15px;
+      margin: 10px;
+  }
+  .buttoncolor{
+    background : #161631;
+    margin-top: 40px;
+  }
+  .material-icons{
+      color: antiquewhite;
+      
+  }
+  .rightbutton{
+      margin: 10px;
+  }
+  .middingspace{
+      margin-right: 50%;
+  }

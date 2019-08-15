@@ -1,0 +1,13 @@
+.bodydetails{
+    width: 100%;
+}
+
+.tabclass{
+    margin-top: 1px;
+    width: 100%;
+    border-color: black ;
+    background-color: rgba(208, 208, 221, 0.445);
+   }
+   .gridcolor{
+       background-color: gray;
+   }
